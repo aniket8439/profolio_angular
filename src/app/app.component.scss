@@ -25,15 +25,12 @@
     }
     
     .content {
-        height: calc(100vh - 98px);
+        height: calc(100vh - 130px);
         margin: 16px;
         margin-left: 32px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2rem;
-        color: lightgray;
         border-radius: 10px;
+        padding: 16px;
+        overflow: auto;
     }
     
     mat-sidenav-container {

@@ -14,17 +14,17 @@
         <p class="email">support@litehires.com</p>
 
         <mat-divider></mat-divider>
-        <button mat-button class="menu-button">
+        <button mat-button class="menu-button" routerLink="/home">
         <mat-icon>home</mat-icon>
         <span>Home</span>
 
         </button>
-        <button mat-button class="menu-button">
+        <button mat-button class="menu-button" routerLink="/privacy_policy">
             <mat-icon>info</mat-icon>
             <span>Privacy Policy</span>
   
           </button>
-        <button mat-button class="menu-button">
+        <button mat-button class="menu-button" routerLink="/clear_data">
             <mat-icon>delete</mat-icon>
             <span>Clear Data</span>
   
@@ -34,7 +34,7 @@
     </mat-sidenav>
     <mat-sidenav-content>
         <div class="content mat-elevation-z4">
-            Home Screen
+            <router-outlet></router-outlet>
         </div>
 
     </mat-sidenav-content>
