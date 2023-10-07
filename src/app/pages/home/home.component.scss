@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+h4 {
+    color: rgb(73, 71, 71);
+}
+
+.left-container {
+    margin-right: 5px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app_img {
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.img2 {
+    margin-top: 50px;
+}
+
+.content {
+    padding: 32px;
+}
+
+span {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.button {
+    background-color: #8B78E6;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
