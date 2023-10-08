@@ -5,11 +5,15 @@
     padding: 32px;
 }
 
+.center {
+    text-align: center;
+}
+
 .logo {
     height: 150px;
     width: 150px;
     border-radius: 75px;
-    margin-left: 60px;
+    //margin-left: 60px;
 }
 
 h1 {
@@ -24,6 +28,10 @@ h4 {
 
 .left-container {
     margin-right: 5px;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
 }
 
 .right-container {
